@@ -7,6 +7,53 @@
     <title>Awesome Books</title>
   </head>
   <body>
+    <div id="nav-block">
+      <nav>
+        <span>Awesome Books</span>
+        <ul>
+          <li><a data-for="list-content" class="nav-active" href="javascript:void(0)">List</a></li>
+          &#x2022;
+          <li><a data-for="add-new-content" href="javascript:void(0)">Add New</a></li>
+          &#x2022;
+          <li><a data-for="contact-content" href="javascript:void(0)">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="date-time"></div>
+    </div>
+    
+    <div id="list-content" class="page-content" hidden>
+      <h1>All awesome books</h1>
+      <div id="books-list"></div>
+    </div>
+
+    <div id="add-new-content" hidden>
+      <h1>Add a new book</h1>
+      <form id="add-book-form">
+        <input id="title-input" type="text" minlength="1" placeholder="Title"/> <br/>
+        <input id="author-input" type="text" minlength="1" placeholder="Author"/> <br/>
+        <button class="add-button" type="submit">Add</button>
+      </form>
+    </div>
+
+    <div id="contact-content" hidden>
+      <h1>Contact information</h1>
+      <p>
+        Do you have any questions or just want to say "Hello"? <br/>
+        You can reach out to us!
+      </p>
+      <ul>
+        <li>Our e-mail: <a href="mailto:adebsa2401@gmail.com">adebsa2401@gmail.com</a></li>
+        <li>Our phone number: +22960610678</li>
+        <li>Our address: Cotonou, Benin</li>
+      </ul>
+    </div>
+
+    <footer>
+      <span>Copyright 2022 Awesome Books</span>
+      &#x2022;
+      <span>All Rights Reserved</span>
+    </footer>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>

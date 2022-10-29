@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+
+#books-list {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 60%;
+}
+
+.book-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.even-index {
+  background-color: #d3d3d3;
+}
+
+#add-book-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+#add-book-form input {
+  height: 20px;
+  border: solid #000 2px;
+}
+
+.add-button {
+  align-self: flex-end;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0;
+  width: 60%;
+  padding: 10px;
+  background-color: #d3d3d3;
+}
+
+#nav-block {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 5px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #d3d3d3;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+}
+
+.nav-active {
+  color: #00f;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#date-time {
+  align-self: flex-end;
+}
